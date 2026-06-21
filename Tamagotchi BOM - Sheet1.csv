@@ -1,0 +1,16 @@
+Item,Description,Quantity,Individual piece quantity,Unit Price ($),Total Price ($),URL,Running Total ($ with Tax)
+XIAO ESP32C3,Microcontroller Unit,1,1,$4.99,$4.99,https://www.digikey.com/en/products/detail/seeed-technology-co-ltd/113991054/16652880,$13.48
+"BRKWY 0.1"" 36POS MALE 10PK",Breakaway Header Male Pin 2.54mm for Battery Cell,1,10,$4.95,$4.95,https://www.digikey.com/en/products/detail/adafruit-industries-llc/392/21283800,$18.75
+Worldsemi WS2812D-F5,Multi Color LED,1,5,0.2512,$1.26,https://www.lcsc.com/product-detail/C190565.html,30
+HS HS96L03W2C03,OLED Screen,1,1,2.244,2.244,https://www.lcsc.com/product-detail/C5248080.html,32.34
+BZCN TSC016A04518A,Pressable Buttons,1,50,$0.01,$0.54,https://www.lcsc.com/product-detail/C2888493.html,33.35
+XHXDZ 1207-P6.5MM,Buzzer,1,10,$0.06,$0.57,https://www.lcsc.com/product-detail/C49246964.html,34.07
+Adafruit LTR390,UV and Light Sensor,1,1,$4.95,$4.95,https://www.adafruit.com/product/4831,45.81
+BATTERY LITH-ION 3.7V 1.2AH,Battery for powering Device,1,1,$3.00,$3.00,https://ydlbattery.com/products/100pcs-3-7v-1200mah-603450-lithium-polymer-battery,63.54
+20 SETS Mini Micro JST 2.0 PH 2-Pin Connector plug with Wires Cables 100MM,Connectors to wire the battery into the battery header pins,1,20,2.68,2.68,https://www.aliexpress.us/item/2251832479273592.html,64.6
+M3(OD4mm) 50Pcs Length 4mm,Heat Inserts to screw the nails into,1,50,$2.88,$2.99,https://www.aliexpress.us/item/3256810175696879.html,67.79
+M4(OD6mm) 30Pcs Length 4mm,Heat Inserts to screw the nails into,1,30,$2.99,$2.99,https://www.aliexpress.us/item/3256810175696879.html,70.66
+PCB from JLCPCB,The PCB that will be used for this project,1,5,$2.50,$2.50,https://jlcpcb.com/,75.96
+Hakko CHP-170,Micro Soft Wire Cutter,1,1,$5.20,$5.20,https://www.tequipment.net/Hakko/CHP-170/Cutting-Tools/,97.03
+M3 Length 4mm Screws,Screws,1,40,$1.37,$1.37,https://www.aliexpress.us/item/3256804341271555.html,100.52
+"TPU 3D Printer Flexible Filament 250g (0.55lbs) 1.75mm Length 80M, Black, white",3D Printer Filament,1,1,$21.78,$21.78,https://www.aliexpress.us/item/3256811629074080.html,109.58
