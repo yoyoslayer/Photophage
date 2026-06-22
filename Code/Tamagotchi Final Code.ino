@@ -14,12 +14,9 @@ Adafruit_LTR390 ltr = Adafruit_LTR390();
 #define BTN_LEFT   2
 #define BTN_CENTER 3
 #define BTN_RIGHT  4
-
 #define SDA_PIN 6
 #define SCL_PIN 7
-
 #define BUZZER_PIN 10
-
 #define LED_PIN 20
 
 Adafruit_NeoPixel pixel(1, LED_PIN, NEO_GRB + NEO_KHZ800);
@@ -38,7 +35,6 @@ struct Pet {
 };
 
 Pet pet;
-
 enum Screen {
   SCREEN_MAIN,
   SCREEN_FEED,
@@ -47,7 +43,6 @@ enum Screen {
 };
 
 Screen currentScreen = SCREEN_MAIN;
-
 enum LightType {
   LIGHT_DARK,
   LIGHT_INDOOR,
@@ -58,14 +53,12 @@ LightType lightType = LIGHT_DARK;
 
 void setup() {
   Serial.begin(115200);
-
   pinMode(BTN_LEFT, INPUT_PULLUP);
   pinMode(BTN_CENTER, INPUT_PULLUP);
   pinMode(BTN_RIGHT, INPUT_PULLUP);
   pinMode(BUZZER_PIN, OUTPUT);
 
   Wire.begin(SDA_PIN, SCL_PIN);
-
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.clearDisplay();
   display.setTextSize(1);
@@ -86,7 +79,6 @@ void setup() {
   pixel.show();
 
   delay(1000);
-
   pet.hunger = 80;
   pet.happiness = 80;
   pet.energy = 80;
@@ -114,7 +106,6 @@ unsigned long lastButtonPress = 0;
 
 void checkButtons() {
   if (millis() - lastButtonPress < 200) return;
-
   if (digitalRead(BTN_LEFT) == LOW) {
     currentScreen = SCREEN_FEED;
     tone(BUZZER_PIN, 1000, 50);
@@ -168,11 +159,9 @@ void checkLight() {
   ltr.setMode(LTR390_MODE_ALS);
   delay(50);
   uint32_t visible = ltr.readALS();
-
   ltr.setMode(LTR390_MODE_UVS);
   delay(50);
   uint32_t uv = ltr.readUVS();
-
   if (visible < ALS_DARK_LEVEL) {
     lightType = LIGHT_DARK;
   } else if (uv > UV_SUN_LEVEL) {
@@ -364,7 +353,6 @@ void render() {
   }
 
   display.drawBitmap(56, 2, sprite, 16, 16, SSD1306_WHITE);
-
   display.setTextSize(1);
   display.setCursor(0, 24);
   display.print("HUN ");
