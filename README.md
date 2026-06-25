@@ -20,6 +20,7 @@ If you press Sleep the pets Energy will go up.
 
 ## Assembly
 1. Download CAD files from onshape and the gerber zip.
+   - View the onshape link to the project here: https://cad.onshape.com/documents/44aaacc0ef00b43b55a7b25a/w/e22c4113114f8d53e37314e9/e/17f3137b611e518161587f18?renderMode=0&uiState=6a3c7f3cb2e533ac5639710d
 2. Purchase the parts from the BOM or select alternatives. (Screws must be exact identicals in dimensions)
 3. Order the PCB from JLCPCB (or your prefferred vendor) using the gerber file attached
 4. Print the case enclosure that houses the PCB and components
